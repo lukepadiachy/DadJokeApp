@@ -47,7 +47,19 @@ namespace DadJokesApp
             }
             
         }
-        
+        public async Task ShareText(string text)
+        {
+            await Share.RequestAsync(new ShareTextRequest
+            {
+                Text = text,
+                Title = "Dad Joke:"
+            });
+        }
+        private async void OnShareButtonClicked(object sender, EventArgs e)
+        {
+            await ShareText(LatestJoke);
+        }
+
     }
 
 }
