@@ -57,6 +57,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\DripOctober-vm0JA.ttf" />
+	  <None Remove="Resources\Fonts\smoothhand-two.ttf" />
+	  <None Remove="Resources\Fonts\smoothhand.otf" />
 	  <None Remove="Resources\Images\dadjokelogo.png" />
 	  <None Remove="Resources\Splash\dadjokes.svg" />
 	</ItemGroup>

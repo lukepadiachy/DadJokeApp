@@ -13,6 +13,10 @@ namespace DadJokesApp
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("DripOctober-vm0JA.ttf", "DripOctober");
+
+                    fonts.AddFont("smoothhand.otf", "smoothone");
+                    fonts.AddFont("smoothhand-two.ttf", "smoothtwo");
                 });
 
 #if DEBUG
