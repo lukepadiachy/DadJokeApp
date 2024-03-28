@@ -20,7 +20,7 @@
                 FontFamily="smoothtwo"
                 Margin="0,20,0,0"/>
 
-            <Frame CornerRadius="10" Margin="20" BackgroundColor="Black" Padding="0">
+            <Frame CornerRadius="10" Margin="20" BackgroundColor="Black" Padding="-1">
             
                 <Image
                 Source="dadjokelogo.png"

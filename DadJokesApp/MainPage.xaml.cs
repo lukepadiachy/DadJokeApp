@@ -49,11 +49,20 @@ namespace DadJokesApp
         }
         public async Task ShareText(string text)
         {
-            await Share.RequestAsync(new ShareTextRequest
+            if (!string.IsNullOrWhiteSpace(text) && text == LatestJoke)
             {
-                Text = text,
-                Title = "Dad Joke:"
-            });
+                await Share.RequestAsync(new ShareTextRequest
+                {
+                    Text = $"Dad Joke 101: {text}",
+                    Title = "Dad Joke:"
+                });
+            }
+            else
+            {
+                // Display an error message or take appropriate action
+                
+                await DisplayAlert("Error 404", "Dad Joke Not Found, Please Have A Laugh!", "OK");
+            }
         }
         private async void OnShareButtonClicked(object sender, EventArgs e)
         {
