@@ -47,6 +47,26 @@
                 Text="Have a laugh" 
                 Command="{Binding NewJokeCommand}"
                 HorizontalOptions="Fill"/>
+            <Label
+                Text="Share Your Favourite"
+                Style="{StaticResource Headline}"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="20"
+                FontFamily="smoothtwo"/>
+            <Label
+                Text="Dad Joke To Socials"
+                Style="{StaticResource Headline}"
+                TextColor="White"
+                FontAttributes="Bold"
+                FontSize="20"
+                FontFamily="smoothtwo"
+                />
+            <ImageButton
+                Source="share.png"
+                BackgroundColor="Transparent"/>
+
+
         </VerticalStackLayout>
     </ScrollView>
 
