@@ -21,10 +21,10 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>DadJokesApp</ApplicationTitle>
+		<ApplicationTitle>Dad Jokes</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.dadjokesapp</ApplicationId>
+		<ApplicationId>com.sodadcanjoke.dadjokesapp</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -41,8 +41,6 @@
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-		<MauiIcon Include="Resources\AppIcon\dadjoke_icon.png" Color="#FFFFFF
-"/>
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\dadjokes.svg" Color="#778899" BaseSize="300,300" />
@@ -59,7 +57,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\AppIcon\dadjoke_icon.png" />
 	  <None Remove="Resources\Fonts\DripOctober-vm0JA.ttf" />
 	  <None Remove="Resources\Fonts\smoothhand-two.ttf" />
 	  <None Remove="Resources\Fonts\smoothhand.otf" />
